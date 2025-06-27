@@ -54,7 +54,7 @@ i {
     height: 100%;
     position: fixed;
     width: 70%;
-    background: #D1D8BE;
+    background: #d1d8be;
     right: -70%;
     top: 0;
     bottom: 0;
@@ -167,12 +167,13 @@ i {
     }
   }
   .banner {
-    height: 250px;
+    height: 200px;
   }
 
   .first-section {
     flex-direction: column;
     .list {
+      padding: 0 20px;
       .icon {
         width: 100px;
         height: 100px;
@@ -184,6 +185,7 @@ i {
   }
 
   .footer {
+    padding: 20px 0;
     flex-direction: column-reverse;
     gap: 50px;
   }
