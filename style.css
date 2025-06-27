@@ -157,6 +157,7 @@ i {
 
 @media (max-width: 430px) {
   .header {
+    padding: 10px;
     .right {
       span {
         display: none;
