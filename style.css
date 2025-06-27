@@ -77,8 +77,10 @@ i {
   background-image: url("./images/bg.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
+  /* background-attachment: fixed; */
+  background-attachment: scroll;
+  height: 100dvh;
+  width: 100%;
 }
 
 .first-section {
@@ -150,8 +152,6 @@ i {
 @media (max-width: 1024px) {
   .banner {
     height: 500px;
-    background-size: contain;
-    background-position: top;
   }
 }
 
